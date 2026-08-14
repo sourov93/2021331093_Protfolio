@@ -1,16 +1,20 @@
-# React + Vite
+# Portfolio — Md. Shamshuddoha Sourov
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio site. CSE, Shahjalal University of Science and Technology (2021331093).
 
-Currently, two official plugins are available:
+Live: https://sourov93.github.io/2021331093_Protfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Structure
 
-## React Compiler
+Plain static site — no build step, no dependencies to install.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `index.html` — every section (About, Skills, Projects, Contact)
+- `style.css` — custom styles on top of Tailwind
+- `picme.jpg` — profile photo
 
-## Expanding the ESLint configuration
+Tailwind and Font Awesome load from a CDN, so an internet connection is needed to view it.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Editing
+
+Open `index.html` in a browser to preview locally. Push to `main` and
+[the workflow](.github/workflows/deploy.yml) publishes it to GitHub Pages automatically.
